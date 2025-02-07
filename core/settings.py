@@ -69,6 +69,8 @@ MIDDLEWARE = [
     'allauth.account.middleware.AccountMiddleware',
 ]
 
+# DEBUG = False
+
 # ----------------------------------------------
 # Templates and Static Files
 # ----------------------------------------------

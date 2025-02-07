@@ -4,11 +4,11 @@
         <div class="menu">
             <ul class="menu-list">
                
-                <li><a href="#" class="menu-btn {% if menu_btn == "home" %}active{% endif %} ">HOME</a></li>
+                <li><a href="/" class="menu-btn {% if menu_btn == "home" %}active{% endif %} ">HOME</a></li>
                 <li><a href="/" class="menu-btn {% if menu_btn == "events" %}active{% endif %} ">EVENTS</a></li>
-                <li><a href="#" class="menu-btn {% if menu_btn == "about" %}active{% endif %} ">ABOUT</a></li>
-                <li><a href="#" class="menu-btn {% if menu_btn == "team" %}active{% endif %} ">TEAM</a></li>
-                <li><a href="#" class="menu-btn {% if menu_btn == "contact" %}active{% endif %} ">CONTACT</a></li>
+                <li><a href="#about" class="menu-btn {% if menu_btn == "about" %}active{% endif %} ">ABOUT</a></li>
+                <li><a href="/" class="menu-btn {% if menu_btn == "team" %}active{% endif %} ">TEAM</a></li>
+                <li><a href="#contact" class="menu-btn {% if menu_btn == "contact" %}active{% endif %} ">CONTACT</a></li>
             </ul>
         </div>
         {% if user.is_authenticated %}
