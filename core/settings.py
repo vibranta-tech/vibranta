@@ -27,7 +27,7 @@ ASSETS_ROOT = os.getenv('ASSETS_ROOT', '/static')
 # ----------------------------------------------
 SECRET_KEY = 'django-insecure--)i0m52p(nts35ff+vdz$0&+6ime+6_urb9yf7o2^r#e-1o2kq'
 DEBUG = True
-ALLOWED_HOSTS =  ['127.0.0.1', 'localhost', '.ngrok-free.app']
+ALLOWED_HOSTS =  ['147.93.111.115', 'vibranta.in', '.ngrok-free.app']
 CSRF_TRUSTED_ORIGINS = ['https://86ea-2409-40d1-1001-7bb1-ec77-81fd-67bf-38a8.ngrok-free.app'
 ]
 
